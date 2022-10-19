@@ -1,13 +1,15 @@
-var fullName = 'Elnur Arabov'
-var getInitials = function (fullName) {
-  var parts = fullName.split(' ')
-  var initials = ''
-  for (var i = 0; i < parts.length; i++) {
-    if (parts[i].length > 0 && parts[i] !== '') {
-      initials += parts[i][0]
-    }
-  }
-  return initials
-}
+let num = prompt ("введите три двузначных числа через запятую одним сообщением");
+const parts = num.split(",");
+	if (a>b) (b<c)
+	var d = b;
+	alert(d);
 
-console.log(getInitials(fullName))
+		if (a<b) (a>c)
+		var d = a;
+		alert(d);
+
+			if (c<a) (c>b)
+			var d = c;
+			alert(d);
+            console.log(d)
+console.log(parts[1])
