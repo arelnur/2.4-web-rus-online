@@ -1,15 +1,13 @@
 let num = prompt ("введите три двузначных числа через запятую одним сообщением");
-const parts = num.split(",");
-	if (a>b) (b<c)
-	var d = b;
-	alert(d);
-
-		if (a<b) (a>c)
-		var d = a;
-		alert(d);
-
-			if (c<a) (c>b)
-			var d = c;
-			alert(d);
-            console.log(d)
-console.log(parts[1])
+const pair1 = num.substr(0, 2);
+const pair2 = num.substr(3, 2);
+const pair3 = num.substr(6, 2);
+if (pair1 < pair2) {
+	console.log(message = 'good');
+  } if (pair1 < pair3) {
+	console.log(message = 'very good');
+  } if (pair2 < pair3) {
+	console.log(message = 'sorry');
+  } else {
+	console.log(message = 'Hello');
+  }
