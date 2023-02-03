@@ -1,0 +1,20 @@
+{
+  "name": "2.4-web-rus-online",
+  "version": "1.0.0",
+  "description": "<<<<<<< HEAD\r test\r =======\r edited 2022 10 18 1500\r edited 2022 10 18 1503\r >>>>>>> 877d96fbc82ce257288d4a6c58770436273edf83",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arelnur/2.4-web-rus-online.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arelnur/2.4-web-rus-online/issues"
+  },
+  "homepage": "https://github.com/arelnur/2.4-web-rus-online#readme"
+}
