@@ -1,92 +1,92 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-    }
-    
-    .header h1 {
-    margin: 0;
-    }
-    
-    .header nav a {
-    color: #fff;
-    text-decoration: none;
-    margin-left: 20px;
-    }
-    
-    .header nav a:hover {
-    color: #fff;
-    text-decoration: underline;
-    }
-    
-    .page {
-    display: none;
-    padding: 20px;
-    }
-    
-    .page.active {
-    display: block;
-    }
-    
-    h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    }
-    
-    p {
-    font-size: 16px;
-    line-height: 1.5;
-    }
-    
-    .portfolio-examples {
-    display: flex;
-    flex-wrap: wrap;
-    }
-    
-    .portfolio-example {
-    width: 30%;
-    margin-bottom: 20px;
-    text-align: center;
-    }
-    
-    .portfolio-example img {
-    width: 100%;
-    }
-    
-    .portfolio-example h3 {
-    font-size: 20px;
-    margin-top: 10px;
-    }
-    
-    .contact-form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 20px;
-    }
-    
-    .contact-form input,
-    .contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    box-sizing: border-box;
-    }
-    
-    .contact-form input[type="submit"] {
-    width: 20%;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    }
-    
-    .contact-form input[type="submit"]:hover {
-    background-color: #fff;
-    color: #333;
-    }
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+background-color: #333;
+color: #fff;
+}
+
+.header h1 {
+margin: 0;
+}
+
+.header nav a {
+color: #fff;
+text-decoration: none;
+margin-left: 20px;
+}
+
+.header nav a:hover {
+color: #fff;
+text-decoration: underline;
+}
+
+.page {
+display: none;
+padding: 20px;
+}
+
+.page.active {
+display: block;
+}
+
+h2 {
+font-size: 28px;
+margin-bottom: 20px;
+}
+
+p {
+font-size: 16px;
+line-height: 1.5;
+}
+
+.portfolio-examples {
+display: flex;
+flex-wrap: wrap;
+}
+
+.portfolio-example {
+width: 30%;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.portfolio-example img {
+width: 100%;
+}
+
+.portfolio-example h3 {
+font-size: 20px;
+margin-top: 10px;
+}
+
+.contact-form {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+width: 100%;
+padding: 10px;
+font-size: 16px;
+box-sizing: border-box;
+}
+
+.contact-form input[type="submit"] {
+width: 20%;
+background-color: #333;
+color: #fff;
+padding: 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+background-color: #fff;
+color: #333;
+}
